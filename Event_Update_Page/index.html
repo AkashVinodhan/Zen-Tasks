@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Events Update page</title>
+  </head>
+  <body>
+    <h2 class="text-center m-4">Event 1</h2>
+    <h4 class="text-center m-4">Number of Available Seats: 55</h4>
+
+    <div class="border border-dark m-5">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div
+              class="border border-success m-4"
+              style="height: 250px; width: 250px"
+            >
+              <img
+                src="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/jcr:content/image.img.640.medium.jpg/1677069223130.jpg"
+                alt="img"
+                style="height: auto; width: 250px"
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <form>
+              <div class="row mb-3">
+                <label for="name" class="col-5 col-form-label text-end"
+                  >Name:
+                </label>
+                <div class="col-7">
+                  <input type="text" class="form-control" id="name" />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="mail" class="col-5 col-form-label text-end"
+                  >Email:
+                </label>
+                <div class="col-7">
+                  <input type="mail" class="form-control" id="mail" />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="phone" class="col-5 col-form-label text-end"
+                  >Phone No.:
+                </label>
+                <div class="col-7">
+                  <input type="text" class="form-control" id="phone" />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="seats" class="col-5 col-form-label text-end"
+                  >No. of Seats:
+                </label>
+                <div class="col-2">
+                  <select id="inputState" class="form-select">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="2ndAttendee" class="col-5 col-form-label text-end"
+                  >Name of Attendee 2:
+                </label>
+                <div class="col-7">
+                  <input type="text" class="form-control" id="2ndAttendee" />
+                </div>
+              </div>
+              <div class="row justify-content-evenly">
+                <button class="btn btn-success col-2" type="submit">
+                  Submit
+                </button>
+                <button class="btn btn-secondary col-2">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
