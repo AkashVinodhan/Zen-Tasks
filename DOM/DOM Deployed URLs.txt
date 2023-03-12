@@ -1,0 +1,10 @@
+					
+
+					Deployed URLs
+
+
+  Calculator : https://quiet-crostata-7f72f9.netlify.app/
+
+  Pagiantion : https://peaceful-crostata-664a67.netlify.app/
+
+  HTML Form : https://peaceful-lokum-158df8.netlify.app/
